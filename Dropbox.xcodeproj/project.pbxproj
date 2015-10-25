@@ -16,6 +16,8 @@
 		D66C9CFE1BDADDC1006F3D2A /* DropboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66C9CFD1BDADDC1006F3D2A /* DropboxUITests.swift */; };
 		D694935E1BDC1FC600561F0B /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D694935D1BDC1FC600561F0B /* CreateAccountViewController.swift */; };
 		D69493601BDC1FD500561F0B /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D694935F1BDC1FD500561F0B /* SignInViewController.swift */; };
+		D69818B21BDC6C11008D0037 /* transitionOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69818B11BDC6C11008D0037 /* transitionOneViewController.swift */; };
+		D69818B41BDC6F52008D0037 /* transitionTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69818B31BDC6F52008D0037 /* transitionTwoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		D66C9CFF1BDADDC1006F3D2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D694935D1BDC1FC600561F0B /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		D694935F1BDC1FD500561F0B /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		D69818B11BDC6C11008D0037 /* transitionOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = transitionOneViewController.swift; sourceTree = "<group>"; };
+		D69818B31BDC6F52008D0037 /* transitionTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = transitionTwoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				D66C9CDD1BDADDC1006F3D2A /* AppDelegate.swift */,
 				D66C9CDF1BDADDC1006F3D2A /* ViewController.swift */,
 				D66C9CE11BDADDC1006F3D2A /* Main.storyboard */,
+				D69818B31BDC6F52008D0037 /* transitionTwoViewController.swift */,
+				D69818B11BDC6C11008D0037 /* transitionOneViewController.swift */,
 				D66C9CE41BDADDC1006F3D2A /* Assets.xcassets */,
 				D66C9CE61BDADDC1006F3D2A /* LaunchScreen.storyboard */,
 				D66C9CE91BDADDC1006F3D2A /* Info.plist */,
@@ -262,8 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D69818B41BDC6F52008D0037 /* transitionTwoViewController.swift in Sources */,
 				D69493601BDC1FD500561F0B /* SignInViewController.swift in Sources */,
 				D694935E1BDC1FC600561F0B /* CreateAccountViewController.swift in Sources */,
+				D69818B21BDC6C11008D0037 /* transitionOneViewController.swift in Sources */,
 				D66C9CE01BDADDC1006F3D2A /* ViewController.swift in Sources */,
 				D66C9CDE1BDADDC1006F3D2A /* AppDelegate.swift in Sources */,
 			);

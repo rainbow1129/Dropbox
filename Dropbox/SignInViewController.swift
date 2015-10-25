@@ -21,6 +21,10 @@ class SignInViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func welcomeTwoBackButton(sender: AnyObject) {
+        navigationController!.popViewControllerAnimated(true)
+        
+    }
 
     /*
     // MARK: - Navigation

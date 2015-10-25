@@ -1,5 +1,5 @@
 //
-//  CreateAccountViewController.swift
+//  transitionTwoViewController.swift
 //  Dropbox
 //
 //  Created by Haihong Wang on 10/24/15.
@@ -8,10 +8,11 @@
 
 import UIKit
 
-class CreateAccountViewController: UIViewController {
+class transitionTwoViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        performSegueWithIdentifier("signInTwoSegue", sender: self)
 
         // Do any additional setup after loading the view.
     }
@@ -21,9 +22,6 @@ class CreateAccountViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func welcomeNewAccountButton(sender: AnyObject) {
-        navigationController!.popViewControllerAnimated(true)
-    }
 
     /*
     // MARK: - Navigation
