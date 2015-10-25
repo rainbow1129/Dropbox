@@ -1,5 +1,5 @@
 //
-//  settingsViewController.swift
+//  settingsSignInViewController.swift
 //  Dropbox
 //
 //  Created by Haihong Wang on 10/25/15.
@@ -8,20 +8,19 @@
 
 import UIKit
 
-class settingsViewController: UIViewController {
+class settingsSignInViewController: UIViewController {
 
-    @IBOutlet weak var settingsImageView: UIImageView!
-    @IBOutlet weak var settingsScrollView: UIScrollView!
+    @IBOutlet weak var settingsSignInScrollView: UIScrollView!
+    @IBOutlet weak var settingsSignInImageView: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        //settingsScrollView.contentSize = settingsImageView.image!.size
-        settingsScrollView.contentSize = CGSize(width: settingsImageView.image!.size.width, height: settingsImageView.image!.size.height + 49)
+         settingsSignInScrollView.contentSize = CGSize(width: settingsSignInImageView.image!.size.width, height: settingsSignInImageView.image!.size.height + 49)
+
         // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-       
         // Dispose of any resources that can be recreated.
     }
     

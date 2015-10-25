@@ -1,5 +1,5 @@
 //
-//  settingsViewController.swift
+//  existingPhotosViewController.swift
 //  Dropbox
 //
 //  Created by Haihong Wang on 10/25/15.
@@ -8,20 +8,20 @@
 
 import UIKit
 
-class settingsViewController: UIViewController {
+class existingPhotosViewController: UIViewController {
 
-    @IBOutlet weak var settingsImageView: UIImageView!
-    @IBOutlet weak var settingsScrollView: UIScrollView!
+    @IBOutlet weak var existingPhotosScrollView: UIScrollView!
+    @IBOutlet weak var existingPhotosImageView: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        //settingsScrollView.contentSize = settingsImageView.image!.size
-        settingsScrollView.contentSize = CGSize(width: settingsImageView.image!.size.width, height: settingsImageView.image!.size.height + 49)
+        existingPhotosScrollView.contentSize = existingPhotosImageView.image!.size
+        
+
         // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-       
         // Dispose of any resources that can be recreated.
     }
     
