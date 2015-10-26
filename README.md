@@ -15,4 +15,6 @@ Completed user stories:
 
 Walkthrough of all user stories:
 
+![alt Walkthrough](https://raw.githubusercontent.com/rainbow1129/Dropbox/master/Dropbox_workflow.gif)
+
 
