@@ -10,8 +10,8 @@ Completed user stories:
   - After creating the account, user can view the placeholders for Files, Photos, and Favorites as well as the Settings screen.
   - User can log out from the Settings screen.
 - User can follow the sign in flow.
-- User can tap the area for "Having trouble signing in?
--User can log out from the Settings screen.
+  - User can tap the area for "Having trouble signing in?
+  - User can log out from the Settings screen.
 
 Walkthrough of all user stories:
 
