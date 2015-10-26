@@ -441,7 +441,7 @@
                                 <rect key="frame" x="8" y="517" width="304" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="wuC-mn-Pf7" kind="modal" animates="NO" id="ETX-BW-KsL"/>
+                                    <segue destination="wuC-mn-Pf7" kind="modal" id="ETX-BW-KsL"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="e9v-iA-Q10">
@@ -460,10 +460,10 @@
             </objects>
             <point key="canvasLocation" x="4451" y="357"/>
         </scene>
-        <!--View Controller-->
+        <!--Terms View Controller-->
         <scene sceneID="fxX-0Q-rnh">
             <objects>
-                <viewController id="wuC-mn-Pf7" sceneMemberID="viewController">
+                <viewController id="wuC-mn-Pf7" customClass="TermsViewController" customModule="Dropbox" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="s1X-wu-OPt">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -476,7 +476,7 @@
                                 <rect key="frame" x="242" y="20" width="78" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="brJ-nJ-ADq" kind="modal" animates="NO" id="BAU-3F-HKB"/>
+                                    <action selector="termsDoneButton:" destination="wuC-mn-Pf7" eventType="touchUpInside" id="pYU-Ir-lId"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -971,10 +971,9 @@
         <image name="welcome3" width="320" height="568"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="BAU-3F-HKB"/>
-        <segue reference="JK6-Qt-cpn"/>
         <segue reference="KaH-sV-iCr"/>
         <segue reference="HsU-q3-Yxp"/>
         <segue reference="PwA-gg-aMF"/>
+        <segue reference="JK6-Qt-cpn"/>
     </inferredMetricsTieBreakers>
 </document>

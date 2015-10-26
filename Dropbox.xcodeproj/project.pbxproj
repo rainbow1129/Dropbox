@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D608730F1BDDA767009D85F5 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D608730E1BDDA767009D85F5 /* TermsViewController.swift */; };
 		D65FE00D1BDD8C0600F0C545 /* existingPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65FE00C1BDD8C0600F0C545 /* existingPhotosViewController.swift */; };
 		D65FE00F1BDD8E8E00F0C545 /* settingsSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65FE00E1BDD8E8E00F0C545 /* settingsSignInViewController.swift */; };
 		D66C9CDE1BDADDC1006F3D2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66C9CDD1BDADDC1006F3D2A /* AppDelegate.swift */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D608730E1BDDA767009D85F5 /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
 		D65FE00C1BDD8C0600F0C545 /* existingPhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = existingPhotosViewController.swift; sourceTree = "<group>"; };
 		D65FE00E1BDD8E8E00F0C545 /* settingsSignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingsSignInViewController.swift; sourceTree = "<group>"; };
 		D66C9CDA1BDADDC1006F3D2A /* Dropbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dropbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,6 +119,7 @@
 				D66C9CDD1BDADDC1006F3D2A /* AppDelegate.swift */,
 				D66C9CDF1BDADDC1006F3D2A /* ViewController.swift */,
 				D66C9CE11BDADDC1006F3D2A /* Main.storyboard */,
+				D608730E1BDDA767009D85F5 /* TermsViewController.swift */,
 				D65FE00E1BDD8E8E00F0C545 /* settingsSignInViewController.swift */,
 				D69818B91BDCBE49008D0037 /* settingsViewController.swift */,
 				D69818B31BDC6F52008D0037 /* transitionTwoViewController.swift */,
@@ -281,6 +284,7 @@
 				D69818B41BDC6F52008D0037 /* transitionTwoViewController.swift in Sources */,
 				D69493601BDC1FD500561F0B /* SignInViewController.swift in Sources */,
 				D694935E1BDC1FC600561F0B /* CreateAccountViewController.swift in Sources */,
+				D608730F1BDDA767009D85F5 /* TermsViewController.swift in Sources */,
 				D69818B21BDC6C11008D0037 /* transitionOneViewController.swift in Sources */,
 				D65FE00D1BDD8C0600F0C545 /* existingPhotosViewController.swift in Sources */,
 				D66C9CE01BDADDC1006F3D2A /* ViewController.swift in Sources */,
