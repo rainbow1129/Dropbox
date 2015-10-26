@@ -570,7 +570,7 @@
                                         <rect key="frame" x="0.0" y="742" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <connections>
-                                            <segue destination="utH-Ir-BeK" kind="modal" id="JK6-Qt-cpn"/>
+                                            <segue destination="utH-Ir-BeK" kind="modal" animates="NO" id="JK6-Qt-cpn"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -972,9 +972,9 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="BAU-3F-HKB"/>
+        <segue reference="JK6-Qt-cpn"/>
         <segue reference="KaH-sV-iCr"/>
         <segue reference="HsU-q3-Yxp"/>
         <segue reference="PwA-gg-aMF"/>
-        <segue reference="nKC-M3-kgo"/>
     </inferredMetricsTieBreakers>
 </document>
